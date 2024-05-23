@@ -1,0 +1,44 @@
+.wrapper {
+    margin: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: sans-serif;
+}
+
+.wrapper button {
+    background: rgb(55, 183, 234);
+    color: white;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    border: none;
+    padding: 11px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.items {
+    width: 600px;
+}
+
+.dataItem {
+    padding: 10px;
+    margin: 5px;
+    background: rgb(55, 183, 234);
+    color: white;
+    border-radius: 2px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.question {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+}
+
+.answer {
+    padding-bottom: 20px;
+}
